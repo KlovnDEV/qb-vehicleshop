@@ -10,7 +10,7 @@ Config.MaximumPayments = 24 -- maximum payments allowed
 Config.PreventFinanceSelling = false -- allow/prevent players from using /transfervehicle if financed
 Config.Shops = {
     ['pdm'] = {
-        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Type'] = 'managed', -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
                 vector2(-56.727394104004, -1086.2325439453),
@@ -27,7 +27,7 @@ Config.Shops = {
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'none', -- Name of job or none
-        ['ShopLabel'] = 'Premium Deluxe Motorsport', -- Blip name
+        ['ShopLabel'] = 'byMEDHUS', -- Blip name
         ['showBlip'] = true, -- true or false
         ['blipSprite'] = 326, -- Blip sprite
         ['blipColor'] = 3, -- Blip color
@@ -98,7 +98,7 @@ Config.Shops = {
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'cardealer', -- Name of job or none
-        ['ShopLabel'] = 'Luxury Vehicle Shop',
+        ['ShopLabel'] = 'AutoXO',
         ['showBlip'] = true, -- true or false
         ['blipSprite'] = 326, -- Blip sprite
         ['blipColor'] = 3, -- Blip color
@@ -141,7 +141,7 @@ Config.Shops = {
         }
     }, -- Add your next table under this comma
     ['boats'] = {
-        ['Type'] = 'free-use', -- no player interaction is required to purchase a vehicle
+        ['Type'] = 'managed', -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
                 vector2(-729.39, -1315.84),
@@ -154,7 +154,7 @@ Config.Shops = {
             ['size'] = 6.2 -- size of the vehicles zones
         },
         ['Job'] = 'none', -- Name of job or none
-        ['ShopLabel'] = 'Marina Shop', -- Blip name
+        ['ShopLabel'] = 'Våte Drømmer', -- Blip name
         ['showBlip'] = true, -- true or false
         ['blipSprite'] = 410, -- Blip sprite
         ['blipColor'] = 3, -- Blip color
@@ -233,7 +233,7 @@ Config.Shops = {
         },
     },
     ['truck'] = {
-        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Type'] = 'managed', -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
                 vector2(872.23, -1173.5),
@@ -250,7 +250,7 @@ Config.Shops = {
             ['size'] = 5.75 -- size of the vehicles zones
         },
         ['Job'] = 'none', -- Name of job or none
-        ['ShopLabel'] = 'Truck Motor Shop', -- Blip name
+        ['ShopLabel'] = 'Lastebil Butikken', -- Blip name
         ['showBlip'] = true, -- true or false
         ['blipSprite'] = 477, -- Blip sprite
         ['blipColor'] = 2, -- Blip color
